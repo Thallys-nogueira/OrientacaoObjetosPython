@@ -50,7 +50,7 @@ class Conta:
     def limite(self, limite):
         self.__titular = limite
 
-    # Método estatico da classe, não precisa de um objeto criado
+    # Método estático da classe, não precisa de um objeto criado
     @staticmethod
     def codigo_banco():
         return "001"
